@@ -17,8 +17,8 @@ const empleadoSchema = new mongoose.Schema({
   Nombre: { type: String, required: true }, 
   dirección: { type: String, required: true }, 
   fechadenacimiento: { type: Date, required: true }, // Se mapea como BSON Date 
-  sexo: { type: String, required: true },          // Puede recibir texto ("Masculino"/"Femenino" o 
-"M"/"F") 
+  sexo: { type: String, required: true },          // Puede recibir texto ("Masculino"/"Femenino"  
+ 
   tipodesangre: { type: String, required: true } 
 }); 
  
